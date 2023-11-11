@@ -1,3 +1,4 @@
+live website: https://tatiasalukvadze.github.io/React_NotificationsPage/
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
