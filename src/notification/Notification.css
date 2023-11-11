@@ -1,0 +1,105 @@
+.n{
+    padding:16px;
+    display:flex;
+    gap:13px;
+}
+.unseen{
+    background-color: #F7FAFD;
+}
+.ball{
+    display:inline-block;
+    width: 8px;
+        height: 8px;
+        border-radius:50%;
+        background-color: #F65552;
+        margin-left:6px;
+}
+img{
+    width: 39px;
+        height: 39px;
+}
+.maintext{
+    font-size: 14px;
+}
+.name{
+    color:  #1C202B;
+        font-weight: 800;
+}
+.ntext{
+    color:  #5E6778;
+        font-weight: 500;
+}
+.time{
+    color: #939CAD;
+        font-weight: 500;
+}
+
+.post{
+    color:  #5E6778;
+        font-weight: 700;
+}
+.group{
+    color: #0A327B;
+        font-weight: 700;
+}
+
+.message{
+    width: 263px;
+        height: 122px;
+        border-radius: 5px;
+            border: 1px solid  #DDE7EE;
+            padding:16px;
+            color: #5E6778;
+                font-weight: 500;
+}
+.messagediv{
+    display:flex;
+    flex-direction: column;
+    gap:12px;
+}
+.imgdiv{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+}
+
+.post:hover, .group:hover,.name:hover{
+    cursor:pointer;
+    color:#0A327B;
+}
+.message:hover{
+    background: #E5EFFA;
+   
+}
+.img:hover{
+    cursor: pointer;
+}
+
+@media (min-width:800px){
+    .n {
+            padding: 20px;
+            gap: 19px;
+        }
+
+    
+        img {
+        width: 45px;
+            height: 45px;
+        }
+    
+        .maintext {
+            font-size: 16px;
+        }
+    
+       
+    
+        .message {
+        width: 566px;
+            height: 97px;
+            padding: 20px;
+        }
+    
+    
+    
+  
+}
